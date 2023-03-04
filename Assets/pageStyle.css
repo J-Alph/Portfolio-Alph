@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: rgb(127, 146, 255);
+}
+
+
+main {
+    background-color: rgb(127, 146, 255);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+a {
+    color: rgb(1, 14, 16);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(204, 255, 0);
+}
+
+.header {
+
+    padding: 20px;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+.navhead {
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+    background-color: rgb(23, 101, 246);
+    height: 20%px;
+}
+
+
+.box {
+    flex: 1 0 300px;
+    background-color: rgb(23, 101, 246);
+    padding: 10%;
+    border-style: inset;
+    flex-wrap: wrap;
+    border-radius: 15%;
+    margin: 4%;
+}
+
+
+
+
+
+@media screen and (max-width: 765px) {}
+    body {
+        background-color: red;
+    }
+
+    main {
+        background-color: red;
+        
+    }
+    .box {
+        width: 100%;
+    }
+
+@media screen and (min-width: 766px) {
+    main{
+    background-image: url(https://th.bing.com/th/id/OIP._vcmC1Y_P5JiKEnHja2hSgHaE7?pid=ImgDet&rs=1);
+    
+        
+}
+    body{
+        background-color: black;
+        color:aqua;
+    }
+    .box{
+        width: 30%;
+    }
+}
