@@ -6,7 +6,7 @@
 body {
     font-family: Arial;
     margin: 0;
-    
+
 }
 
 
@@ -24,13 +24,19 @@ a {
 
 p {
     font-size: 16px;
-    color: rgb(6, 7, 1);
+    color: rgb(206, 56, 10);
 }
 
 img {
-    border-radius: 30%;
-    border: 10px solid black;
+    border-radius: 10%;
+    border: 10px solid rgb(12, 1, 1);
+ 
 
+}
+
+.imgbound {
+    height: 300px;
+    width: 300px;
 }
 
 .header {
@@ -50,32 +56,64 @@ img {
 
 }
 
+.box1{
+    flex: 1 0 100%;
+    height: 400px;
+    background-color: rgb(213, 60, 233);
+    padding: 1%;
+    border-style:double;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    margin: 4%;
 
+}
 
 .box {
-    flex: 1 0 300px;
+    flex: 1 0 150px;
     background-color: rgb(54, 140, 221);
     padding: 1%;
-    border-style: inset;
     flex-wrap: wrap;
     border-radius: 15%;
     margin: 4%;
 }
 
 
+.sidebar {
+    flex: 2 1 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    float: left;
+    width: 200px;
+    height: 900px;
+    background-color: rgb(255, 0, 255);
+    margin: 15px; 
+    text-align: center; 
+    border: 5px;
+    border-color: rgb(161, 9, 9);
+}
+
+.sidebar2 {
+    border: 40px;
+    border-color: rgb(182, 7, 7);
+    
+    height: 300px;
+}
+
+
 @media screen and (max-width: 765px) {
-body {
-    background-color: rgb(35, 209, 195);
+    body {
+        background-color: rgb(35, 209, 195);
+    }
+
+    main {
+        background-color: rgb(0, 38, 255);
+        
+    }
 }
 
-main {
-    background-color: rgb(255, 217, 0);
 
-}
-}
-.box {
-    width: 100%;
-}
+/* Adds responsive desgin for viewing on different surfaces based upon speciifc widths */
 
 @media screen and (min-width: 766px) {
     main {
@@ -84,7 +122,7 @@ main {
     }
 
     body {
-        background-color: black;
+        background-color: rgb(14, 4, 4);
         color: aqua;
     }
 
@@ -93,8 +131,22 @@ main {
     }
 }
 
-    @media screen and (max-width: 480px){
-    .header{
-        background-color: blueviolet;
+
+@media  screen and (min-width: 150px) {
+    .sidebar{
+        width: 30%;
+        font-size:smaller;
+    }
+    main {
+        width: auto;
+    }
+    
+}
+
+
+
+@media screen and (mid-width: 1024px) {
+    .sidebar{
+        width: 20%;
     }
 }
