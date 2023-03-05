@@ -40,7 +40,13 @@ p {
     justify-content: right;
     font-size: 15px;
     background-color: rgb(23, 101, 246);
-    height: 20%px;
+    
+}
+
+.avatar {
+    justify-content: left;
+    max-width: 100%;
+    height: auto;
 }
 
 
