@@ -29,15 +29,16 @@ p {
 }
 
 img {
-    border-radius: 10%;
+    border-radius: 1%;
     border: 10px solid rgb(12, 1, 1);
 
 
 }
 
 .imgbound {
-    height: 300px;
-    width: 300px;
+ 
+    height: 100%;
+    width: 100%;
 }
 
 .header {
@@ -58,15 +59,16 @@ img {
 }
 
 .box1 {
-    flex: 1 0 100%;
-    height: 400px;
-
+    flex: 1 0 90%;
+    height: 100%;
+    display:block;
     padding: 1%;
     border-style: double;
     flex-wrap: wrap;
-    border-radius: 5%;
+  
     margin: 4%;
-    background-image: image(Assets\horiseanPic)
+
+   
 }
 
 .box {
@@ -81,7 +83,7 @@ img {
 
 .sidebar {
     flex: 2 1 200px;
-    display: flex;
+    display: table;
     flex-direction: column;
     padding: 20px;
     float: left;
@@ -94,16 +96,12 @@ img {
     border-color: rgb(161, 9, 9);
 }
 
-.sidebar2 {
+.sidebarbox {
     border: 40px;
-    border-color: rgb(182, 7, 7);
-
-    height: 300px;
+      height: 300px;
 }
 
-#Horiseon {
-    background-image: var(horImg)
-}
+
 
 
 @media screen and (max-width: 765px) {
