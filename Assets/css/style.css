@@ -115,6 +115,7 @@ img {
     height: 300px;
 }
 
+/* This is footer */
 .footer {
     flex: 1 0 150px;
     background-color: blue;
