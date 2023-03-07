@@ -1,15 +1,9 @@
 
-:root {
---thumbs: "U+1ff44D";
+* {
+    box-sizing: border-box;
 }
-
-
-* {  box-sizing: border-box;
-
-}
-
-
-html{
+/* Added scrolling behavior action for hyperlink interaction */
+html {
     scroll-behavior: smooth;
 }
 
@@ -19,6 +13,7 @@ body {
 
 }
 
+/* Set background color and behavior for main section of file */
 
 main {
     background-color: rgb(42, 49, 15);
@@ -27,16 +22,19 @@ main {
 
 }
 
+/* Sets the style for the hyperlinks */
 a {
     color: rgb(255, 229, 112);
     text-decoration: underline;
     text-align: center;
 }
 
+
 p {
     font-size: 16px;
     color: rgb(93, 219, 212);
 }
+/* Set borders to a certain size and color */
 
 img {
     border-radius: 1%;
@@ -45,11 +43,14 @@ img {
 
 }
 
+/* Sets the size of image */
 .imgbound {
 
     height: 100%;
     width: 100%;
 }
+
+/* Set the font, dimensions, font size and color */
 
 .header {
 
@@ -58,16 +59,14 @@ img {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blueviolet;
     height: 150px;
-}
-
-.navhead {
     display: flex;
     justify-content: right;
     font-size: 15px;
-    background-color: rgb(23, 101, 246);
+
 
 }
 
+/* Sets main box for featured project */
 .box1 {
     flex: 1 0 90%;
     height: 100%;
@@ -79,7 +78,7 @@ img {
     background-color: rgb(9, 47, 107);
 
 }
-
+/* Set dimensions, behavior and color for section boxes */
 
 .box {
     flex: 1 0 150px;
@@ -92,6 +91,7 @@ img {
     padding: 2%;
 }
 
+/* Sets dimensions for side bar area. */
 
 .sidebar {
     flex: 2 1 200px;
@@ -104,11 +104,12 @@ img {
     background-color: rgb(9, 47, 107);
     margin: 15px;
     text-align: center;
-    
-    
-    
+
+
+
 }
 
+/*  Sets the text boxes inside sidebar to specific height and border size*/
 .sidebarbox {
     border: 40px;
     height: 300px;
@@ -123,6 +124,7 @@ img {
     width: 100%;
 }
 
+/* Adds responsive desgin for viewing on different surfaces based upon speciifc widths */
 
 @media screen and (max-width: 765px) {
     body {
@@ -136,8 +138,6 @@ img {
 }
 
 
-/* Adds responsive desgin for viewing on different surfaces based upon speciifc widths */
-
 @media screen and (min-width: 766px) {
 
     body {
@@ -149,7 +149,7 @@ img {
         width: 30%;
     }
 }
-
+/* Changes background colors for viewing on different surfaces based upon speciifc widths */
 
 @media screen and (max-width: 425px) {
     .sidebar {
@@ -161,11 +161,12 @@ img {
     main {
         width: auto;
     }
-    
-    .box{
+
+    .box {
         color: rgb(239, 251, 10);
     }
-    .box1{
+
+    .box1 {
         color: yellow;
     }
 
