@@ -16,7 +16,7 @@ body {
 /* Set background color and behavior for main section of file */
 
 main {
-    background-color: rgb(42, 49, 15);
+    background-color: rgb(25, 157, 142);
     display: flex;
     flex-wrap: wrap;
 
@@ -24,7 +24,7 @@ main {
 
 /* Sets the style for the hyperlinks */
 a {
-    color: rgb(255, 229, 112);
+    color: rgb(112, 210, 255);
     text-decoration: underline;
     text-align: center;
 }
@@ -32,7 +32,7 @@ a {
 
 p {
     font-size: 16px;
-    color: rgb(93, 219, 212);
+    color: rgb(112, 210, 255);
 }
 /* Set borders to a certain size and color */
 
@@ -81,7 +81,8 @@ img {
 /* Set dimensions, behavior and color for section boxes */
 
 .box {
-    flex: 1 0 150px;
+    flex: 1 0 30%;
+    height: 100%;
     background-color: rgb(9, 47, 107);
     padding: 1%;
     flex-wrap: wrap;
@@ -89,6 +90,7 @@ img {
     margin: 4%;
     border-style: double;
     padding: 2%;
+    display: block;
 }
 
 /* Sets dimensions for side bar area. */
